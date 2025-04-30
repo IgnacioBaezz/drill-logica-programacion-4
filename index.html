@@ -8,9 +8,28 @@
     <title>Calculadora de Fibonacci</title>
 </head>
 <body>
+    <main class="row justify-content-around mt-5">
+
+        <form id="formulario" class="col-8 col-md-5 col-lg-3 bg-dark p-3 rounded my-3 d-flex justify-content-center align-items-center" style="aspect-ratio: 1;">
+            <div class="w-100">
+                <h2 class="text-white text-uppercase text-center fw-bold mb-4">Calculadora de Fibonacci</h2>
+                <input class="form-control mb-3" id="numero" type="text" placeholder="Selecciona un número" aria-label="Número Fibonacci">
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-outline-light w-75">Calcular</button>
+                </div>
+            </div>
+        </form>
+        
     
-
-
+        <div id="resultado" class="col-8 col-md-5 col-lg-3 bg-light border border-dark border-5 p-3 my-3 d-flex justify-content-center align-items-center" style="aspect-ratio: 1;">
+            <h2 class="text-center m-0">Resultado?</h2>
+        </div>
+    
+    </main>
+    
+    <footer class="bg-dark text-center p-2 fixed-bottom">
+        <p class="text-white">Ignacio Báez 2025&copy;</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="assets/js/scripts.js"></script>
 </body>
